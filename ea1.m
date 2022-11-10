@@ -1,12 +1,7 @@
-% euclidean_algorithm.py, rcampbel@purdue.edu
-% Ref: https://en.wikipedia.org/wiki/Euclidean_algorithm
+% ea1.m, see https://en.wikipedia.org/wiki/Euclidean_algorithm
 
 a = 252;
 b = 105;
-
-%{
-
-%}
 
 while a ~= b
 

@@ -1,5 +1,4 @@
-# euclidean_algorithm.py, rcampbel@purdue.edu
-# Ref: https://en.wikipedia.org/wiki/Euclidean_algorithm
+# ea1.py, see https://en.wikipedia.org/wiki/Euclidean_algorithm
 
 a = 252
 b = 105

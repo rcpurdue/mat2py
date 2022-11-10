@@ -9,22 +9,22 @@ Euclid's Algorithm
 
 ## Trivial Differences
 
-### Command Line
+### Command Line & GUI
 ### Comments (single & multiline)
-### Spaces and Semicolons
-### Variables
+### Spaces and Semicolons (instead of "end")
+### Variables (and objects)
 ### Conditionals (and/or vs &&/||)
 ### Loops
 ### Classes & Objects
-### None
+### None (closes is [])
 ### Booleans
 ### Libraries
+### Plots (pyplot)
 
 ## Key Differences
 
-### Variables (value vs. reference)
-### Indexing
-### Dynamic allocation
+### Variables (value vs. reference, mutable, copying)
 ### Arrays (lists, Numpy, cell arrays)
-### Plots
+### Indexing (esp. as aplies to loops)
+### Dynamic allocation
 ### Objects (properties, public)
