@@ -1,4 +1,5 @@
-% ea1.m, see https://en.wikipedia.org/wiki/Euclidean_algorithm
+% ex0: Syntax, MATLAB
+% Ref: https://en.wikipedia.org/wiki/Euclidean_algorithm
 
 a = 252;
 b = 105;

@@ -1,4 +1,4 @@
-% ea2.m, see https://en.wikipedia.org/wiki/Euclidean_algorithm
+% ex1: Functions, MATLAB
 
 gcd = euclidgcd(252, 105);
 disp(gcd);

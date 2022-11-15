@@ -1,4 +1,4 @@
-# ea2.py, see https://en.wikipedia.org/wiki/Euclidean_algorithm
+# ex1: Functions, Python
 
 def euclid_gcd(a, b):
     """Return greatest common divisor."""
