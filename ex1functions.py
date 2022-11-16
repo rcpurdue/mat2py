@@ -1,16 +1,16 @@
 # ex1: Functions, Python
 
-def euclid_gcd(a, b):
+def euclid_gcd(foo, bar):
     """Return greatest common divisor."""
 
-    while a != b:
+    while foo != bar:
 
-        if a > b:
-            a = a - b
+        if foo > bar:
+            foo = foo - bar
         else:
-            b = b - a
+            bar = bar - foo
 
-    return a
+    return foo
 
 
 gcd = euclid_gcd(252, 105)

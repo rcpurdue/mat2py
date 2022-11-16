@@ -33,10 +33,10 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 ## Key Differences
 
 ### Variables (value vs. reference, mutable, copying)
-### Arrays (lists, Numpy, cell arrays)
-### Indexing & slicing (in loops, slices of ndarrays)
-### Dynamic allocation
-### Objects (properties, public)
+### Collections (arrays, lists, Numpy, cell arrays)
+### Indexing & slicing (end, negative, in loops, slices of ndarrays)
+### Reallocation
+### Objects ("properties" vs "attributes", private/protected vs public and "_...")
 
 ## Not Covered
 

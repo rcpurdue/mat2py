@@ -1,13 +1,13 @@
 # ex8: Misc., MATLAB
 
-a = True    # Boolean value
-b = None    # Empty value
-c = 'abc'   # String
+foo = True    # Boolean value
+bar = None    # Empty value
+baz = 'abc'   # String
 
 try:
 
     # Expressions
-    if a or (b is None and c == 'abc'):
+    if foo or (bar is None and baz == 'abc'):
         print('Ok')
     else:
         print('Nope')

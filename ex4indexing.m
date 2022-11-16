@@ -1,9 +1,9 @@
 % ex4: Indexing, MATLAB
 
-a = [252, 253, 254];
-b = [105, 106, 107];
-c = gcd(a, b);
+foo = [252 253 254];
+bar = [105 106 107];
+baz = gcd(foo, bar);
 
-if c(1) == 21
+if baz(1) == 21
     disp('Twenty-one!')
 end

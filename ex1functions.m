@@ -4,15 +4,15 @@ gcd = euclidgcd(252, 105);
 disp(gcd);
 
 
-function a = euclidgcd(a, b)
+function foo = euclidgcd(foo, bar)
     % EUCLIDGCD Return greatest common divisor
 
-    while a ~= b
+    while foo ~= bar
 
-        if a > b
-            a = a - b;
+        if foo > bar
+            foo = foo - bar;
         else
-            b = b - a;
+            bar = bar - foo;
         end
     end
 end

@@ -1,0 +1,10 @@
+{
+    "editor.snippetSuggestions": "none",
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestionsDelay": 10000
+}

@@ -6,14 +6,14 @@ import numpy as np
 class ex6classes(object):
     TWENTY_ONE = 21
 
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
+    def __init__(self, foo, bar):
+        self.foo = foo
+        self.bar = bar
 
     def run(self):
-        return np.gcd(self.a, self.b)
+        return np.gcd(self.foo, self.bar)
 
-    def check(self, c):
+    def check(self, baz):
 
-        if c[0] == self.TWENTY_ONE:
+        if baz[0] == self.TWENTY_ONE:
             print('Twenty-one!')

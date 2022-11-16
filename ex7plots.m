@@ -1,8 +1,8 @@
 % ex7: Plots, MATLAB
 
-n = randn(10000, 1);
+foo = randn(10000, 1);
 
-histogram(x, 50, 'edgecolor', 'w');
+histogram(foo, 50, 'edgecolor', 'w');
 xlabel('Bin');
 ylabel('Value');
 title('Histogram, Normal Distribution');

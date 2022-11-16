@@ -6,23 +6,23 @@ classdef ex6classes < handle
     end
 
     properties
-        a
-        b
+        foo
+        bar
     end
 
     methods
-        function obj = ex6classes(a, b)
-            obj.a = a;
-            obj.b = b;
+        function obj = ex6classes(foo, bar)
+            obj.foo = foo;
+            obj.bar = bar;
         end
 
-        function c = run(obj)
-            c = gcd(obj.a, obj.b);
+        function baz = run(obj)
+            baz = gcd(obj.foo, obj.bar);
         end
 
-        function check(obj, c)
+        function check(obj, baz)
 
-            if c(1) == obj.TWENTY_ONE
+            if baz(1) == obj.TWENTY_ONE
                 disp('Twenty-one!');
             end
         end

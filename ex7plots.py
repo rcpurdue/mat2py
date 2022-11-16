@@ -3,9 +3,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.random.randn(10000, 1)
+foo = np.random.randn(10000, 1)
 
-plt.hist(x, 50, edgecolor='w')
+plt.hist(foo, 50, edgecolor='w')
 plt.xlabel('Bin')
 plt.ylabel('Value')
 plt.title('Histogram, Normal Distribution')

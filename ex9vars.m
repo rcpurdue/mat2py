@@ -1,17 +1,17 @@
 % ex9: Variables, MATLAB
 
 % Single value
- a = 1;
- b = a;     % Copies value to new variable
- b = 99;
+foo = 1;
+ bar = a;     % Copies value to new variable
+ bar = 99;
 
- disp(a);   % "1"
- disp(b);   % "99"
+ disp(foo);   % "1"
+ disp(bar);   % "99"
 
  % Values in a container (array)
- a = [1, 2 ,3];
- b = a;     % Copies value into new variable
- b(1) = 99;
+ foo = [1, 2 ,3];
+ bar = foo;     % Copies value into new variable
+ bar(1) = 99;
 
- disp(a);   % "1 2 3"
- disp(b);   % "99 2 3"
+ disp(foo);   % "1 2 3"
+ disp(bar);   % "99 2 3"

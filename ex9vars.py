@@ -1,17 +1,17 @@
 # ex9: Variables, Python
 
 # Single value
-a = 1
-b = a;     # Copies value to new variable
-b = 99
+foo = 1
+bar = foo;     # Copies value to new variable
+bar = 99
 
-print(a);   # "1"
-print(b);   # "99"
+print(foo);   # "1"
+print(bar);   # "99"
 
 # Values in a container (list)
-a = [1, 2 ,3]
-b = a     # NOTE Points b at same container as a
-b[0] = 99
+foo = [1, 2 ,3]
+bar = foo     # NOTE Points b at same container as a
+bar[0] = 99
 
-print(a)   # "[99, 2, 3]"   !!!
-print(b)   # "[99, 2, 3]"
+print(foo)   # "[99, 2, 3]"   !!!
+print(bar)   # "[99, 2, 3]"

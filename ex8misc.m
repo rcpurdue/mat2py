@@ -1,14 +1,14 @@
 % ex8: Misc., MATLAB
 
-a = 1;      % Boolean value (alt: "true")
-b = [];     % Empty value
-c = 'abc';  % Character array
+foo = 1;      % Boolean value (alt: "true")
+bar = [];     % Empty value
+baz = 'abc';  % Character array
 
 % Exception handling
 try
 
     % Expressions
-    if a || (isempty(b) && strcmp(c, 'abc'))   % alt: c == "abc"
+    if foo || (isempty(bar) && strcmp(baz, 'abc'))   % alt: baz == "abc"
         disp('Ok');
     else
         disp('Nope');

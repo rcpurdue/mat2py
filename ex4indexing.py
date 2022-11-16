@@ -2,8 +2,8 @@
 
 import numpy as np
 
-a = np.array([252, 253, 254])
-b = np.array([105, 106, 107])
+foo = np.array([252, 253, 254])
+bar = np.array([105, 106, 107])
 
-if np.gcd(a, b)[0] == 21:
+if np.gcd(foo, bar)[0] == 21:
     print('Twenty-one!')

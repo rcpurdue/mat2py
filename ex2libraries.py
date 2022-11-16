@@ -2,5 +2,5 @@
 
 import math
 
-a = math.gcd(252, 105)
-print(a)
+foo = math.gcd(252, 105)
+print(foo)

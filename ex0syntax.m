@@ -1,16 +1,16 @@
 % ex0: Syntax, MATLAB
 % Ref: https://en.wikipedia.org/wiki/Euclidean_algorithm
 
-a = 252;
-b = 105;
+foo = 252;
+bar = 105;
 
-while a ~= b
+while foo ~= bar
 
-    if a > b
-        a = a - b;
+    if foo > bar
+        foo = foo - bar;
     else
-        b = b - a;
+        bar = bar - foo;
     end
 end
 
-disp(a)
+disp(foo)

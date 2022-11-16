@@ -2,11 +2,11 @@
 
 import numpy as np
 
-a = np.array([252, 253, 254])
-b = np.array([105, 106, 107])
-c = np.gcd(a, b)
+foo = np.array([252, 253, 254])
+bar = np.array([105, 106, 107])
+baz = np.gcd(foo, bar)
 
-for i in range(len(c)):
+for i in range(len(baz)):
 
-    if c[i] == 21:
+    if baz[i] == 21:
         print('Twenty-one!')
