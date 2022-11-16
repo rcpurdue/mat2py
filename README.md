@@ -34,7 +34,7 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 
 ### Variables (value vs. reference, mutable, copying)
 ### Arrays (lists, Numpy, cell arrays)
-### Indexing (esp. as applies to loops)
+### Indexing & slicing (in loops, slices of ndarrays)
 ### Dynamic allocation
 ### Objects (properties, public)
 
