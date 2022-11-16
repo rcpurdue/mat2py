@@ -51,4 +51,5 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 ## Reference:
 - [NumPy for MATLAB users](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html)
 - [Python Buildin Functions](https://docs.python.org/3/library/functions.html)
-- [MATLAB Buildin Functions](https://www.mathworks.com/help/matlab/referencelist.html?type=function&category=index&s_tid=CRUX_lftnav_function_index)
+- [MATLAB Builtin Functions](https://www.mathworks.com/help/matlab/referencelist.html?type=function&category=index&s_tid=CRUX_lftnav_function_index)
+- [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
