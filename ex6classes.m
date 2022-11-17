@@ -16,7 +16,7 @@ classdef ex6classes < handle
             obj.bar = bar;
         end
 
-        function baz = run(obj)
+        function baz = process(obj)
             baz = gcd(obj.foo, obj.bar);
         end
 

@@ -1,17 +1,15 @@
 # ex9: Variables, Python
 
-# Single value
+# Single value, "immutable"
 foo = 1
-bar = foo;     # Copies value to new variable
+bar = foo  # Copy value
 bar = 99
 
-print(foo);   # "1"
-print(bar);   # "99"
+print(foo, bar)  # 1 99
 
-# Values in a container (list)
-foo = [1, 2 ,3]
-bar = foo     # NOTE Points b at same container as a
+# Values in container (list),  "mutable"
+foo = [1, 2, 3]
+bar = foo     # Point b at SAME list
 bar[0] = 99
 
-print(foo)   # "[99, 2, 3]"   !!!
-print(bar)   # "[99, 2, 3]"
+print(foo, bar)   # [99, 2, 3] [99, 2, 3] !!!

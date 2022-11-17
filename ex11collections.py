@@ -2,25 +2,26 @@
 
 import numpy as np
 
-# numpy's "ndarray": holds values of same type
-foo1 = np.array([1, 2, 3])
-foo2 = np.array([97, 98, 99])
-foo3 = foo1 * foo2;  # Can do math - NOTE "*"
+# Same type: numpy's ndarray
+foo = np.array([1, 2, 3])
+bar = np.array([97, 98, 99])
+baz = foo * bar  # Can do math, note *
 
-# "list": holds values of different types
-bar1 = [1, 'two', 3.33]
-bar2 = ['abc', 'def']  # Sometimes holds values of same type
-bar2[0] - 'xyz'  # NOTE same index operators, "[...]"
+# Diff types: list
+foo = [1, 'two', 3.33]
+bar = ['abc', 'def']  # Can do same type
+bar[0] = 'xyz'  # Note same brackets
 
-# "dictionary": holds values in named fields
+# Named fields: dictionary
 baz = {'shape': 'round',
        'color': 'red',
        'count': 42}
-baz['color'] = 'green'  #Ok to change value of field
-baz['age'] = 99  # Ok to add new fields
-baz[4] = 'four'  # OK to use any value as a field name
+baz['age'] = 99  # New field
+baz[4] = 'four'  # Unrestricted field names
 
-# "tuple":  also holds values of diff types
+# Immutable: tuple
 foo = (1, 'two', 3.33)
-bar = foo[2]  # use square brackets to index, bar=3.33
-foo[2] = 4.44  # ERROR tuples cannot change ("immutable")
+bar = foo[2]  # bar=3.33
+# foo[2] = 4.44  # ERROR tuples can't change
+
+print(foo, bar, baz)

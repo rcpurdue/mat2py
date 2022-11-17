@@ -1,19 +1,20 @@
 % ex11: Collections, MATLAB
 
-% "array" ("vector", "matrix"): holds values of same type
-foo1 = [1, 2, 3];
-foo2 = [97, 98, 99];
-foo3 = foo1 .* foo2;  % Can do math - NOTE ".*"
+% Same type: array (vector, matrix)
+foo = [1, 2, 3];
+bar = [97, 98, 99];
+baz = foo .* bar;  %#ok, Can do math, note .*
 
-% "cell array": holds values of different types
-bar1 = {1, 'two', 3.33};
-bar2 = {'abc', 'def'};  % Sometimes holds values of same type
-bar2{1} = 'xyz';  % NOTE different index operators, "{...}"
+% Diff types: cell array
+foo = {1, 'two', 3.33};
+bar = {'abc', 'def'};  % Can do same type
+bar{1} = 'xyz';  % Note diff brackets
 
-% "struct": holds values in named fields
+% Named fields: struct
 baz = struct('shape', 'round', ...
              'color', 'red', ...
              'count', 42);
-baz.color = 'green';  % Ok to change value of field
-baz.age = 99;  % Ok to add new fields
-% baz.4 = 'four'  % ERROR: Can't use some values as field names!
+baz.age = 99;  % New field
+% baz.4 = 'four'  % Restricted field names
+
+print([foo bar baz])

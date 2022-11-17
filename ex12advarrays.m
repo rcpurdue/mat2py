@@ -1,20 +1,21 @@
 % ex12: Advanced Arrays, MATLAB
 
 % Commas
-foo = [1 2 3 4];
-bar = [1, 2, 3, 4];  % NOTE commas optional
+foo = [1 2 3 4];  %#ok
+bar = [1, 2, 3, 4];  %#ok, Commas optional
 
 % Autofill
-foo = zeros(10);  % [0 0 0 0 0 0 0 ...]
-bar = ones(20);  % [1 1 1 1 1 1 1 ...]
-baz = 1:5;  % [1 2 3 4 5]  NOTE values up to five
+foo = zeros(10);  %#ok
+bar = ones(20);  %#ok
+baz = 1:5;  %#ok
 
 % Multidimensional
-foo = [1 2 3; 4 5 6];  % NOTE semicolon
-bar = size(foo);  % call function size(), bar=[2, 3]
-baz = ndims(foo);  % call funciont ndims(), baz=2
+foo = [1 2 3; 4 5 6];  % Note semicolon
+bar = size(foo);  %#ok
+baz = ndims(foo);
 
 % Concatenation
-foo = [[1 2] [3 4]];  % Concatenates, foo=[1 2 3 4]
-bar = [[1 2], [3 4]];  % Same as above
-baz = [[1 2]; [3 4]];  % Creates 2x2
+foo = [[1 2] [3 4]];
+bar = [[1 2]; [3 4]];
+
+disp([foo bar baz])

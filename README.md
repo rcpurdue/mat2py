@@ -40,11 +40,12 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 
 ## Not Covered
 
+### Code/module/library paths
 ### IDE (editor, "MATLAB GUI", debugger)
 ### Command Line
 ### Traditional naming conventions
 ### Building GUI applicaitons, notebooks, libraries
-### Compiling
+### Compiled code
 ### Packaging & distribution
 ### Virtual environments
 

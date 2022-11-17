@@ -9,10 +9,15 @@ try
 
     % Expressions
     if foo || (isempty(bar) && strcmp(baz, 'abc'))   % alt: baz == "abc"
-        disp('Ok');
+        disp('Yep');
     else
         disp('Nope');
     end
+
+    % Multiple return values
+    [foo, bar] = log2(3.14);
+    foo = log2(3.14);
+    [~, foo] = log2(3.14);
 
 catch ME
 
