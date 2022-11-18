@@ -1,4 +1,4 @@
-# ex12: Advanced Arrays, MATLAB
+# ex12: More Arrays, MATLAB
 
 import numpy as np
 

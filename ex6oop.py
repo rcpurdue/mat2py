@@ -1,9 +1,9 @@
-# ex6: Classes, Python
+# ex6: OOP, Python
 
 import numpy as np
 
 
-class ExampleSix(object):  # Name can diff from file name
+class Example6(object):  # Name can diff from file name
     TWENTY_ONE = 21
 
     def __init__(self, foo, bar):
@@ -17,5 +17,3 @@ class ExampleSix(object):  # Name can diff from file name
 
         if baz[0] == self.TWENTY_ONE:
             print('Twenty-one!')
-
-

@@ -1,4 +1,4 @@
-% ex12: Advanced Arrays, MATLAB
+% ex12: More Arrays, MATLAB
 
 % Commas
 foo = [1 2 3 4];  %#ok

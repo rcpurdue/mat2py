@@ -1,6 +1,6 @@
-% ex6: Classes, MATLAB
+% ex6: OOP, MATLAB
 
-classdef ex6classes < handle
+classdef ex6oop < handle  % Class name must match file's name
     properties (Constant)
         TWENTY_ONE = 21
     end
@@ -11,7 +11,7 @@ classdef ex6classes < handle
     end
 
     methods
-        function obj = ex6classes(foo, bar)
+        function obj = ex6oop(foo, bar)
             obj.foo = foo;
             obj.bar = bar;
         end

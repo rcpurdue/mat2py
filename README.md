@@ -40,6 +40,7 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 
 ## Not Covered
 
+### List composition
 ### Code/module/library paths
 ### IDE (editor, "MATLAB GUI", debugger)
 ### Command Line
