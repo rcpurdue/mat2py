@@ -13,4 +13,4 @@ while foo ~= bar
     end
 end
 
-disp(foo)
+disp(foo);

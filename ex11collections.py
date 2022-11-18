@@ -19,7 +19,7 @@ baz = {'shape': 'round',
 baz['age'] = 99  # New field
 baz[4] = 'four'  # Unrestricted field names
 
-# Unchangable: tuple
+# Unchangeable: tuple
 foo = (1, 'two', 3.33)
 bar = foo[2]  # bar=3.33
 # foo[2] = 4.44  # ERROR tuples can't change

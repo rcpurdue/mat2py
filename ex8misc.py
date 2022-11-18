@@ -1,4 +1,4 @@
-# ex8: Misc., MATLAB
+# ex8: Misc., Python
 
 import numpy as np
 

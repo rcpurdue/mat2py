@@ -8,7 +8,7 @@ foo = np.array([1, 2, 3, 4])  # Commas required
 # Autofill
 foo = np.zeros(10)
 bar = np.ones(20)
-baz = np.arange(5)
+baz = np.arange(1, 6)
 
 # Multidimensional
 foo = np.array([[1, 2, 3], [4, 5, 6]])  # list of lists

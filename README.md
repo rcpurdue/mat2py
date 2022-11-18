@@ -45,7 +45,7 @@ ex8  Misc        (&&/||, empty values, booleans, exceptions)
 ### IDE (editor, "MATLAB GUI", debugger)
 ### Command Line
 ### Traditional naming conventions
-### Building GUI applicaitons, notebooks, libraries
+### Building GUI applications, notebooks, libraries
 ### Compiled code
 ### Packaging & distribution
 ### Virtual environments
