@@ -1,6 +1,6 @@
 # ex8: Misc., MATLAB
 
-import math
+import numpy as np
 
 foo = True    # Boolean value
 bar = None    # Empty value
@@ -16,9 +16,9 @@ try:
         print('Nope')
 
     # Multiple return values
-    foo, bar = math.frexp(3.14)
-    foo = math.frexp(3.14)
-    _, foo = math.frexp(3.14)
+    foo, bar = np.meshgrid([1, 2], [1, 2, 3])
+    foo = np.meshgrid([1, 2], [1, 2, 3])  # only 1st
+    _, foo = np.meshgrid([1, 2], [1, 2, 3])  # only 2nd
 
 except Exception as e:
 

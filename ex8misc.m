@@ -2,7 +2,7 @@
 
 foo = 1;      % Boolean value (alt: "true")
 bar = [];     % Empty value
-baz = 'abc';  % Character array
+baz = 'abc';  % Character array (alt: "abc", string)
 
 % Exception handling
 try
@@ -15,9 +15,9 @@ try
     end
 
     % Multiple return values
-    [foo, bar] = log2(3.14);
-    foo = log2(3.14);
-    [~, foo] = log2(3.14);
+    [foo, bar] = meshgrid([1 2], [1 2 3]);
+    foo = meshgrid([1 2], [1 2 3]);  % only 1st
+    [~, foo] = meshgrid([1 2], [1 2 3]);  % only 2nd
 
 catch ME
 
