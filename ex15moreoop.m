@@ -1,18 +1,18 @@
 % ex15: More OOP, MATLAB
 
-classdef ex15moreoop < ex6classes  % Inheritance
+classdef ex15moreoop < ex6oop  % Inheritance
     properties (Access = protected)
         baz  % Create protected attribute
     end
 
     methods
         function obj = ex15moreoop(foo, bar)
-            obj = obj@ex6classes(foo, bar);  % Call super constructor
+            obj = obj@ex6oop(foo, bar);  % Call super constructor
             obj.describe();
         end
 
         function baz = process(obj)
-            baz = process@ex6classes(obj);  % Call super method
+            baz = process@ex6oop(obj);  % Call super method
             obj.baz = baz;
         end
     end

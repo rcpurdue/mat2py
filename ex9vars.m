@@ -2,7 +2,7 @@
 
 % Single value
 foo = 1;
-bar = a;  %#ok Copy value
+bar = foo;  %#ok Copy value
 bar = 99;
 
 disp([foo bar]);  % 1 99

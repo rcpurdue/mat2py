@@ -10,7 +10,7 @@ bar[0] = 0  # foo=[0, 22. 33, 44], bar=[0, 33, 44]  !!!
 
 baz = foo[1:]  # Slice to end
 baz = foo[-1]  # Last value: "negative means wrap around"
-baz = foo(-2)  # Backwards indexing
+baz = foo[-2]  # Backwards indexing
 
 print(foo, bar, baz)
 

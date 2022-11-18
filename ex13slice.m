@@ -22,4 +22,4 @@ bar = foo(:);  %  1x6: 1 2 3 4 5 6
 % Partial indexes
 baz = foo(1);  %  1
 
-disp([foo bar baz]);
+disp(foo);

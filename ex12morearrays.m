@@ -18,4 +18,4 @@ baz = ndims(foo);
 foo = [[1 2] [3 4]];
 bar = [[1 2]; [3 4]];
 
-disp([foo bar baz])
+disp(foo)

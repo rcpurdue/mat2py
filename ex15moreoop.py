@@ -1,6 +1,6 @@
 # ex15: More OOP, Python
 
-from ex6classes import Example6
+from ex6oop import Example6
 
 
 class Example15(Example6):  # Inheritance
