@@ -17,9 +17,11 @@ foo = [1 2 3; 4 5 6];
 % Colon alone, "all"
 bar = foo(:, 2);  %#ok,  2 5
 bar = foo(1, :);  %#ok,  1 2 3
-bar = foo(:);  %  1x6: 1 2 3 4 5 6
+bar = foo(:);  %  1x6: 1 4 2 5 3 6  (corrected, was "1 2 3 4 5 6")
 
 % Partial indexes
-baz = foo(1);  %  1
+baz = foo(1);  %#ok, 1
+baz = foo(2);  %#ok, 4
+baz = foo(3);  % 2  (corrected, was "5")
 
 disp(foo);
